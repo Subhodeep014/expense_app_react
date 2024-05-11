@@ -19,9 +19,10 @@ import ExpensesPage from './pages/ExpensesPage';
 
 // console.log(user)
 
+// for dev env
+// 'http://localhost:8000'
 
-
-axios.defaults.baseURL = 'http://localhost:8000'
+axios.defaults.baseURL = 'https://expenseapi.netlify.app/api'
 axios.defaults.withCredentials = true;
 
 function App() {
